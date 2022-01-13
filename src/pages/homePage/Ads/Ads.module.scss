@@ -1,0 +1,97 @@
+@import "../../../shared/styles/common.scss";
+.AdsBack {
+  background-color: getColor("bg-ads");
+}
+.Ads {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 41px;
+  @include desktop {
+    position: relative;
+    flex-direction: row;
+    margin-top: 169px;
+    justify-content: center;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.adsWraper {
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+  }
+}
+.astronaut {
+  margin-top: 40px;
+  margin-left: 39px;
+  width: 313px;
+  height: 234px;
+  @include desktop {
+    position: absolute;
+    width: 264px;
+    height: 422px;
+    top: -200px;
+    left: 10%;
+  }
+}
+.heading {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 38px;
+  max-width: 335px;
+  color: getColor("text-accent");
+  &::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    top: 100%;
+    left: 0%;
+    width: 160px;
+    height: 1px;
+    margin-top: 18px;
+    background-color: getColor("text-primary");
+  }
+  @include desktop {
+    font-size: 32px;
+    line-height: 39px;
+    width: 340px;
+    margin-bottom: 33px;
+    &::after {
+      top: -35%;
+    }
+  }
+}
+.paragraph {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 30px;
+  max-width: 335px;
+  color: getColor("text-paragraph");
+}
+.linkDiv {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.storeImg {
+  width: 143px;
+  height: 46px;
+  margin-left: 12px;
+}

@@ -1,0 +1,24 @@
+@import "base";
+@import "reset";
+
+.container {
+  font-family: Montserrat, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  @include desktop {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.visuallyHidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
