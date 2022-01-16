@@ -17,7 +17,7 @@ const SearchMainSection = () => {
           <use className={styles.point} href={`${svg}#point`}></use>
         </svg>
       </div>
-      <a href="./find">
+      <a href="/TZ_PM-Digital-Transformation/find">
         <Button className={styles.searchBtn} text="Найти кандидатов" />
       </a>
     </div>

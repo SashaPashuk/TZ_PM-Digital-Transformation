@@ -9,6 +9,7 @@ const Path = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
+        <Route path="/TZ_PM-Digital-Transformation" element={<FindEmployees title="Find employees" />} exact />
         <Route
           path="/TZ_PM-Digital-Transformation/find"
           element={<FindEmployees title="Find employees" />}

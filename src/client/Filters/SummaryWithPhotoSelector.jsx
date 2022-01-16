@@ -31,4 +31,4 @@ const SummaryWithPhotoSelector = ({ checked, onChange }) => (
 );
 
 export default SummaryWithPhotoSelector;
-// https://github.com/markusenglund/react-switch#readme
+

@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import {usePagination, DOTS} from './usePagination';
 import './Pagination.module.scss';
 
-// Source: https://github.com/mayankshubham/react-pagination
+
 
 const Pagination = props => {
     const {
