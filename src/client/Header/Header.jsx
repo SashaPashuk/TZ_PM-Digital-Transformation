@@ -25,7 +25,7 @@ const Header = ({ burger }) => {
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <a className={styles.jobSeeker} href="/">
+            <a className={styles.jobSeeker} href="#">
               Соискателю
               <svg className={styles.svg}>
                 <use className={styles.Arrow} href={`${svg}#arrow`}></use>
@@ -33,12 +33,12 @@ const Header = ({ burger }) => {
             </a>
           </li>
           <li className={styles.item}>
-            <a className={styles.employer} href="/">
+            <a className={styles.employer} href="#">
               Работодатель
             </a>
           </li>
           <li>
-            <a className={styles.hr} href="/">
+            <a className={styles.hr} href="#">
               HR
             </a>
           </li>

@@ -5,17 +5,17 @@ const HeaderModal = () => {
     <div className={styles.Modal}>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <a className={styles.jobSeeker} href="/">
+          <a className={styles.jobSeeker} href="#">
             Соискателю
           </a>
         </li>
         <li className={styles.item}>
-          <a className={styles.employer} href="/find">
+          <a className={styles.employer} href="#">
             Работодатель
           </a>
         </li>
         <li className={styles.item}>
-          <a className={styles.hr} href="/">
+          <a className={styles.hr} href="#">
             HR
           </a>
         </li>

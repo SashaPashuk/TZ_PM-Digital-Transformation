@@ -3,7 +3,8 @@ import Path from "./navigation/Routes";
 import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+
+    <BrowserRouter >
       <Path />
     </BrowserRouter>
   );
