@@ -51,7 +51,7 @@ const SummariesItem = ({summarie}) => {
         }
     };
     const city = () => {
-        const city = "Город не указан >_<";
+        const city = "Город не указан ...";
         if (work_city.length === 0) {
             return city;
         }
